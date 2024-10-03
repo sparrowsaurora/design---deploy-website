@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design & Deploy - Build your Brand are Here</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/favicon_icon/favicon.ico" type="image/ico">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">Design & Deploy</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="index.html" class="logo">Design & Deploy</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+          
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle has-before">Welcome to Design & Deploy</p>
+      
+            <h1 class="h1 hero-title">Your vision, our mission.</h1>
+      
+            <p class="hero-text">
+              We create powerful, tailored web solutions designed to help your brand stand out in the digital world. From
+              dynamic websites to cutting-edge digital experiences, our team delivers results that drive your business forward.
+            </p>
+      
+            <div class="btn-group">
+              <a href="#services" class="btn btn-primary">Explore Our Services</a>
+              <a href="vsl.html">
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <span class="span">See How We Work</span>
+              </button>
+              </a>
+            </div>
+      
+          </div>
+      
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+      
+        </div>
+      </section>
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section features" id="portfolio" aria-label="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Our Work-</p>
+
+          <h2 class="h2 section-title text-center">Some of our past websites</h2>
+
+          <p class="section-text text-center">
+            Get the most out of our services and experience the benefits of working with us.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Expert Guidance</h3>
+
+                <a href="#"><img src="" alt=""></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Personalized Solutions</h3>
+
+                <a href="#"><img src="" alt=""></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Results-Driven Approach</h3>
+
+                <a href="#"><img src="" alt=""></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">Designing for Your Success, Building a Digital Future</h2>
+
+            <p class="section-text">
+              At Design & Deploy, we create innovative web solutions that empower your brand for long-term success. Our
+              expert team is dedicated to providing customized designs that meet your business needs and exceed expectations.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Competitive Pricing with Full Transparency
+              </li>
+
+              <li class="has-before">
+                Custom Web Development
+              </li>
+
+              <li class="has-before">
+                100% Satisfaction Guarantee
+              </li>
+
+              <li class="has-before">
+                Results-Driven Approach
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Know More</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">2+ Years Experience</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-What We Offer-</p>
+
+          <h2 class="h2 section-title text-center">Our Services</h2>
+
+          <p class="section-text text-center">
+            Optimize your team's resources and enhance user experience. Our streamlined approach helps reduce operating costs while delivering exceptional service.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">UI/UX Design</h3>
+
+                  <p class="card-text">
+                    <ul>
+                      <li>• User interface design</li>
+                      <li>• User experience design</li>
+                      <li>• Wireframing and prototyping</li>
+                      <li>• Accessibility testing</li>
+                    </ul>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text">
+                    <ul>
+                      <li>• Custom website Development</li>
+                      <li>• E-commerce solutions</li>
+                      <li>• Content management systems</li>
+                      <li>• Responsive web design</li>
+                    </ul>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Copywriting" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Professional Content Writer</h3>
+
+                  <p class="card-text">
+                    <ul>
+                      <li>• Website content</li>
+                      <li>• Blog posts</li>
+                      <li>• Product descriptions</li>
+                      <li>• Marketing materials</li>
+                    </ul>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Digital Marketing"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Digital Marketing</h3>
+
+                  <p class="card-text">
+                    <ul>
+                      <li>• Search engine optimization (SEO)</li>
+                      <li>• Pay-per-click (PPC) advertising</li>
+                      <li>• Social media marketing</li>
+                      <li>• Email marketing</li>
+                    </ul>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Why Choose Us-</p>
+
+          <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+
+          <p class="section-text text-center">
+            Get the most out of our services and experience the benefits of working with us.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Expert Guidance</h3>
+
+                <p class="card-text">
+                  Our team of experts will guide you through every step of the process, ensuring you receive the best possible results.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Personalized Solutions</h3>
+
+                <p class="card-text">
+                  We take the time to understand your unique needs and goals, providing tailored solutions that meet your specific requirements.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Results-Driven Approach</h3>
+
+                <p class="card-text">
+                  Our focus is on delivering results that drive real growth and success for your business.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Unparalleled Support</h3>
+
+                <p class="card-text">
+                  Our dedicated support team is always available to answer your questions and provide assistance whenever you need it.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Proven Track Record</h3>
+
+                <p class="card-text">
+                  Our success stories speak for themselves - we have a proven track record of delivering exceptional results for our clients.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Competitive Pricing</h3>
+
+                <p class="card-text">
+                  We offer competitive pricing without compromising on quality, ensuring you receive the best value for your investment.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #FAQS
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Frequently Asked Questions</h2>
+            <a href="#" class="btn btn-primary">Work Together</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">What is the typical timeline for a project?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    The timeline for a project varies depending on the scope and complexity of the work. We'll work with you to establish a project schedule that meets your needs and ensures timely delivery.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">How do you approach project management?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We use a collaborative approach to project management, working closely with you to establish clear goals, objectives, and timelines. Our team will keep you informed throughout the project, ensuring you're always up-to-date on progress.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">What is your process for handling revisions and feedback?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We encourage open communication and feedback throughout the project. Our team will work with you to incorporate revisions and feedback, ensuring the final product meets your expectations.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">How do you ensure the quality of your work?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We take pride in our work and strive for excellence in every project. Our team follows a rigorous quality control process to ensure accuracy, attention to detail, and exceptional results.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">What kind of support do you offer after the project is complete?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We offer ongoing support and maintenance to ensure your project continues to meet your needs. Our team is always available to answer questions and provide assistance whenever you need it.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Design & Deploy</a>
+
+          <p class="footer-text">
+            We create powerful, tailored web solutions designed to help your brand stand out in the digital world.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">UI/UX Design</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Professional Content Writing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Marketing</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Get in Touch</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+1234567890" class="contact-link">+61 447 293 569</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@designanddeploy.com" class="contact-link">info@designanddeploy.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Design & Deploy | All Rights Reserved
+        </p>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

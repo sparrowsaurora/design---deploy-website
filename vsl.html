@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design & Deploy - Build your Brand are Here</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/favicon_icon/favicon.ico" type="image/ico">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">Design & Deploy</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="index.html" class="logo">Design & Deploy</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" id="home-link" data-nav-link>Home</a>
+          </li>
+          
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+      
+      <section class="section vsl" id="vsl" aria-label="vsl">
+        <div class="container">
+          <div class="vsl-content">
+            <h1 class="vsl-title">Design & Deploy</h1>
+            <p class="vsl-text">We create powerful, tailored web solutions designed to help your brand stand out in the digital world.</p>
+            <div class="vsl-video">
+              <iframe
+              id="video"
+                src="https://www.youtube.com/embed/NpEaa2P7qZI?autoplay=1&loop=1&mute=1"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <a href="#lets-talk" class="btn-vsl">Let's Chat</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lets-talk" id="lets-talk" aria-label="lets-talk"></section>
+        <div class="container">
+          <div class="lets-talk-content">
+            <h1 class="lets-talk-title">Let's Chat</h1>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/ryankelley1711/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=28af60" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
+
+          </div>
+        </div>
+      </section>
+
+    </article>
+    <footer class="footer">
+
+      <div class="footer-top section">
+        <div class="container">
+  
+          <div class="footer-brand">
+  
+            <a href="#" class="logo">Design & Deploy</a>
+  
+            <p class="footer-text">
+              We create powerful, tailored web solutions designed to help your brand stand out in the digital world.
+            </p>
+  
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+  
+              <button type="submit" class="form-btn">
+                <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+  
+          </div>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Our Services</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">UI/UX Design</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Web Development</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Professional Content Writing</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Digital Marketing</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Our Portfolio</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Our Blog</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Get in Touch</p>
+            </li>
+  
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+  
+              <a href="tel:+1234567890" class="contact-link">+61 447 293 569</a>
+            </li>
+  
+            <li class="footer-item">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+  
+              <a href="mailto:info@designanddeploy.com" class="contact-link">info@designanddeploy.com</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+      </div>
+  
+      <div class="footer-bottom">
+  
+          <p class="copyright">
+            &copy; 2024 Design & Deploy | All Rights Reserved
+          </p>
+  
+      </div>
+  
+    </footer>
+  
+    <!-- 
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+  
+    <!-- 
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </main>
+  
+</body>

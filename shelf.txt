@@ -1,0 +1,232 @@
+<ul class="about-list">
+
+              <li class="has-before">
+                Competitive Pricing with Full Transparency: We provide transparent pricing and competitive rates without compromising on quality.
+              </li>
+
+              <li class="has-before">
+                Custom Web Development: Every project is unique, and we craft bespoke solutions that align with your brand and goals.
+              </li>
+
+              <li class="has-before">
+                100% Satisfaction Guarantee: We're so confident in our work that we offer a money-back guarantee if you're not completely satisfied.
+              </li>
+
+              <li class="has-before">
+                Results-Driven Approach: Our focus is on creating websites that drive traffic, engage visitors, and achieve measurable outcomes by understanding your target audience and tailoring your website to their needs.
+              </li>
+
+            </ul>
+
+                  <!-- 
+        - #FAQS
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Frequently Asked Questions</h2>
+            <a href="#" class="btn btn-primary">Work Together</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">What is the typical timeline for a project?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    The timeline for a project varies depending on the scope and complexity of the work. We'll work with you to establish a project schedule that meets your needs and ensures timely delivery.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">How do you approach project management?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We use a collaborative approach to project management, working closely with you to establish clear goals, objectives, and timelines. Our team will keep you informed throughout the project, ensuring you're always up-to-date on progress.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">What is your process for handling revisions and feedback?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We encourage open communication and feedback throughout the project. Our team will work with you to incorporate revisions and feedback, ensuring the final product meets your expectations.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">How do you ensure the quality of your work?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We take pride in our work and strive for excellence in every project. Our team follows a rigorous quality control process to ensure accuracy, attention to detail, and exceptional results.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">What kind of support do you offer after the project is complete?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    We offer ongoing support and maintenance to ensure your project continues to meet your needs. Our team is always available to answer questions and provide assistance whenever you need it.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-What Sets Us Apart-</p>
+
+          <h2 class="h2 section-title text-center">Why Choose Design & Deploy?</h2>
+
+          <p class="section-text text-center">
+            Discover the benefits of partnering with us and how we can help drive your business forward.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">What Makes Our Solutions Unique?</h3>
+
+                <p class="card-text">
+                  Our team of experts crafts customized solutions that meet your specific needs and goals, ensuring you receive the best possible results.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">How Do We Drive Business Growth?</h3>
+
+                <p class="card-text">
+                  Our results-driven approach focuses on delivering tangible results that drive real growth and success for your business.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">What Kind of Support Can I Expect?</h3>
+
+                <p class="card-text">
+                  Our dedicated support team is always available to answer your questions and provide assistance whenever you need it.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">How Do We Measure Success?</h3>
+
+                <p class="card-text">
+                  We track key performance indicators and adjust our strategies to ensure you're meeting your goals and achieving success.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">What's Our Approach to Innovation?</h3>
+
+                <p class="card-text">
+                  We stay ahead of the curve by embracing the latest technologies and trends, ensuring you receive cutting-edge solutions that drive results.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">How Do We Ensure Your Satisfaction?</h3>
+
+                <p class="card-text">
+                  We prioritize your satisfaction and guarantee our work, ensuring you receive the best possible results and a positive experience.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
