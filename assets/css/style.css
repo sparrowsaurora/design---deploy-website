@@ -662,7 +662,7 @@ body {
 \*-----------------------------------*/
 
 .vsl-content {
-  text-align: center; /* add this to center the button */
+  text-align: center;
 }
 
 .vsl-title {
@@ -674,20 +674,37 @@ body {
 }
 
 .vsl-video {
-  padding: 20px 0;
-  height: 624.375px;
-  width: 1110px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
-
-
-#video {
-  border-radius: 10px;
+.vsl-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  border: none;
+}
+
+@media (min-width: 1000px) { /* adjust the breakpoint as needed */
+  .vsl-video {
+    min-width: 800px; /* adjust the width as needed */
+  }
+}
+
+@media (max-width: 800px) { /* adjust the breakpoint as needed */
+  .vsl-video {
+    min-width: 100%; /* make the video full-width on smaller screens */
+  }
 }
 
 .btn-vsl {
+  margin-top: 20px;
   background-color: var(--go-green);
   color: var(--white);
   font-weight: var(--fw-600);
@@ -701,6 +718,7 @@ body {
 }
 
 .btn-vsl:hover {
+  margin-top: 20px;
   background-color: var(--white);
   color: var(--go-green);
   font-weight: var(--fw-600);
